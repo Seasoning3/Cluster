@@ -17,14 +17,14 @@ void setup()
 
 void move_forward()
 {
-  digitalWrite(motor1PinA, LOW);
-  digitalWrite(motor1PinB, HIGH);
+  digitalWrite(motor1PinA, HIGH);
+  digitalWrite(motor1PinB, LOW);
 }
 
 void move_backward()
 {
-  digitalWrite(motor1PinA, HIGH);
-  digitalWrite(motor1PinB, LOW);
+  digitalWrite(motor1PinA, LOW);
+  digitalWrite(motor1PinB, HIGH);
 }
 
 void wheel_forward()
