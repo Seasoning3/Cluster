@@ -2,14 +2,16 @@ int motor1PinA = 2;
 int motor1PinB = 3;
 int enablePin = 11;
 
-void setup() {
+void setup()
+{
   pinMode(motor1PinA, OUTPUT);
   pinMode(motor1PinB, OUTPUT);
   pinMode(enablePin, OUTPUT);
   analogWrite(enablePin, 1000);
 }
 
-void loop() {
+void loop()
+{
   digitalWrite(motor1PinA, HIGH);
   digitalWrite(motor1PinB, LOW);
   delay(1000);
