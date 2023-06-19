@@ -10,6 +10,9 @@ void setup() {
 }
 
 void loop() {
+  digitalWrite(motor1PinA, HIGH);
+  digitalWrite(motor1PinB, LOW);
+  delay(1000);
   digitalWrite(motor1PinA, LOW);
   digitalWrite(motor1PinB, HIGH);
   delay(1000);
